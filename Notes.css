@@ -1,0 +1,89 @@
+/* Seletors amd Pseudo Selector*/
+body {
+    background-color: rgb(40, 48, 98);
+    color: rgb(69, 52, 223);
+    
+}
+
+h1 {
+    background-color: rgb(101, 178, 241);
+}
+span{
+    background-color: aquamarine;
+}
+
+#DC{
+    background-color: rgb(66, 63, 240);
+    color: rgb(255, 255, 255);
+}
+#YT{
+    background-color: red;
+    color: white;
+}
+
+h2{
+    background-color: aqua;
+}
+
+*{
+    padding: 5px;
+}
+hr{
+    background-color: black;
+}
+
+/* Pseudo Class Selector*/
+a:hover{
+    background-color: rgb(241, 101, 143);
+}
+a:visited{
+    background-color: rgb(101, 178, 241);
+}
+a:link{
+    background-color: rgb(101, 241, 101);
+}
+a:active{
+    background-color: rgb(241, 157, 101);
+}
+p:first-child{
+    background-color: rgb(101, 241, 241);
+}
+/* margin and padding*/
+body{
+    margin: 10px; /* margin: top right bottom left*/
+    padding: 10px; /* padding: top right bottom left*/
+    border: 1px solid black; /* around the padding */
+    /* border is between margin and padding, content is in padding*/
+    height: 30px; /* wothout box sizing, its the hight of the elemnt omly
+    but with the */ box-sizing: border-box; /* it includes to the hight of borader (padding to0) and the emlnt*/
+
+    /* margin colapse : jub do margin ek ke uper ek ate hai to maximum wali margin lagti haiiiii*/
+}
+/* FONTS and Colours */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* main font is  Segoe UI, uske baad fallback fonts hai */
+    font-size: 30px;
+    /* font-style: itallic;
+    font-weight: bold;
+    text-decoration: underline; */
+    /* Use google fonts */
+    line-height: 4; /* Distance between above and below the text */
+    letter-spacing: 4;
+    /*text property*/
+    text-transform: uppercase; /* turn every capital */
+    text-align: center; /* center align the text */
+    text-decoration: dotted underline; /* underline and dotted */
+    color: rgb(255, 255, 255); /* white */
+    color: rgba(red, green, blue, alpha); /* alpha is the transparency of the color */
+    background-color: rgb(101, 178, 241); /* blue */
+    background-color: rgba(red, green, blue, alpha); /* alpha is the transparency of the color */
+    background-image: url('https://www.w3schools.com/css/trolltunga.jpg');
+    text-decoration-thickness: 2px; /* thicknes of the underline */
+    text-shadow: 2px 2px 2px black; /* shadow */
+    text-indent: 7px;
+    text-overflow: ellipsis; /* ellipses if text overflows */
+    overflow: hidden; /* hidden if text overflows */
+}
